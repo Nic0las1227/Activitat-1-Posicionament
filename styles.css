@@ -4,6 +4,8 @@ background-color: black;
 text-align: center;
 font-style: bold;
 padding-top: 10px;
+position: fixed;
+width: 100%;
 }
 h1 {
     color: white;
@@ -16,32 +18,28 @@ nav{
     background-color: black;
     color: white;
     position: sticky;
+    text-align: center;
+    top: 90px;
 }
 footer{
     background-color: black;
     color: white;
     text-align: center;
+    top: 30px;
+    position:relative;
 }
 main{
+    position:relative;
+    top:60px;    
     margin: 40px 20px 40px 20px; 
-    
+
 }
 section{
     background-color:rgb(241,241,241);
     margin: 0px 0px 10px 0px;
 }
 
-#Section1{
+.Section1{
     padding: 10px;
     
-}
-
-#Section2{
-    padding: 10px;
-    
-}
-
-#Section3{
-    padding: 10px;
-       
 }
